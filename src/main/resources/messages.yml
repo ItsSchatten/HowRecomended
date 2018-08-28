@@ -1,0 +1,20 @@
+# [+]---------------------------------------------------------------------------------------------[+]
+#                       Welcome to the HowRecommend Messages file
+# [+]---------------------------------------------------------------------------------------------[+]
+#
+#    You can use color codes in this file.
+#    And supported unicode characters will be used in the plugin.
+#
+#    If you have any issues contact the plugin developer.
+# [+]---------------------------------------------------------------------------------------------[+]
+
+# ---------------------------------------------------------------------------------------------------
+#                          This sets the prefix for the plugin.
+# ---------------------------------------------------------------------------------------------------
+prefix: "&7How &9Recommended &7\u00BB&f"
+
+# ---------------------------------------------------------------------------------------------------
+#                         You can use, the following placeholders.
+#              {player} The player's name. {prefix} The prefix of the plugin.
+# ---------------------------------------------------------------------------------------------------
+no-permissions: "{prefix} &cI'm sorry, You do not have permission to do this."
