@@ -31,13 +31,17 @@ public class Settings extends SimpleConfig {
 		new Settings("settings.yml").onLoad();
 	}
 
-	public static boolean USE_BYPASS;
+	public static boolean USE_BYPASS, PLUGIN_ENABLED, DONT_RECEIVECHATS;
+	public static String EXIT_PHRASE;
 
-	public void onLoad() {
+	private void onLoad() {
 		USE_BYPASS = (boolean) get("use-bypass");
+		PLUGIN_ENABLED = (boolean) get("plugin-enabled");
+		DONT_RECEIVECHATS = (boolean) get("dont-receive-chats");
+		EXIT_PHRASE = getString("exit-phrase");
 	}
 
-	public void reloadMessages() {
+	public void reloadSettings() {
 		setInstance(null);
 
 		new Settings("settings.yml").onLoad();

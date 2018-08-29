@@ -6,6 +6,13 @@
 #    And supported unicode characters will be used in the plugin.
 #
 #    If you have any issues contact the plugin developer.
+#    Note: We have not added all placeholders to every message, for the messages that can use
+#    Placeholders we have put them in comments above the value.
+#
+#
+#    If you want more placeholder things you can open an issue on github.
+#    https://github.com/ItsShadow13/HowRecomended/issues/new
+#
 # [+]---------------------------------------------------------------------------------------------[+]
 
 # ---------------------------------------------------------------------------------------------------
@@ -14,7 +21,41 @@
 prefix: "&7How &9Recommended &7\u00BB&f"
 
 # ---------------------------------------------------------------------------------------------------
+#                          This sets the prefix for the join conversation.
+# ---------------------------------------------------------------------------------------------------
+convo-prefix: "&7First&9Join &7\u00BB&f "
+
+# ---------------------------------------------------------------------------------------------------
 #                         You can use, the following placeholders.
 #              {player} The player's name. {prefix} The prefix of the plugin.
+#                         {permission} the permission that you need.
 # ---------------------------------------------------------------------------------------------------
-no-permissions: "{prefix} &cI'm sorry, You do not have permission to do this."
+no-perms: "{prefix} &cI'm sorry, you do not have permission to do this. ({permission})"
+
+# ---------------------------------------------------------------------------------------------------
+#                      Sets the not enough arguments message.
+#                       {prefix} The prefix from the plugin.
+# ---------------------------------------------------------------------------------------------------
+not-enough-args: "{prefix} &cNot enough arguments."
+
+# ---------------------------------------------------------------------------------------------------
+#                      Sets the inappropriate arguments message.
+#                        {prefix} The prefix from the plugin.
+# ---------------------------------------------------------------------------------------------------
+inapproriate-args: "{prefix} &cPlease only use reload, enable, and reward."
+
+# ---------------------------------------------------------------------------------------------------
+#                      Sets the bypass message that is sent to admins.
+#                     You can use {prefix} {player} The player's name.
+# ---------------------------------------------------------------------------------------------------
+bypass-message: "{prefix} &7Hello, &c{player}&7, welcome back to the server!"
+
+# ---------------------------------------------------------------------------------------------------
+#                   The message that is sent after the player inputs a name.
+# ---------------------------------------------------------------------------------------------------
+success-message: "&aSuccess! &7Thank you for participating!"
+
+# ---------------------------------------------------------------------------------------------------
+#                   The message that is sent after the player inputs a name.
+# ---------------------------------------------------------------------------------------------------
+prompt-text: "&cHello! &7Welcome to our server! If you would could you please tell us how you found our server?"

@@ -1,0 +1,37 @@
+# [+]---------------------------------------------------------------------------------------------[+]
+#                       Welcome to the HowRecommend Settings file
+# [+]---------------------------------------------------------------------------------------------[+]
+#
+#    You can use color codes in this file.
+#    And supported unicode characters will be used in the plugin.
+#
+#    If you have any issues open an issue here.
+#    https://github.com/ItsShadow13/HowRecomended/issues/new?template=bug_report.md
+#    
+#    If you have a suggestion open an issue here.
+#    https://github.com/ItsShadow13/HowRecomended/issues/new
+# [+]---------------------------------------------------------------------------------------------[+]
+
+
+# ---------------------------------------------------------------------------------------------------
+#                          Are the effects of this plugin enabled?
+# ---------------------------------------------------------------------------------------------------
+plugin-enabled: true
+
+# ---------------------------------------------------------------------------------------------------
+#            Should we allow users with the permission howrecommended.admin.bypass
+#                          to bypass the join conversation?
+#                             (Useful for world resets.)
+# ---------------------------------------------------------------------------------------------------
+use-bypass: true
+
+# ---------------------------------------------------------------------------------------------------
+#                          Should players not receive chat messages
+#                          while in the conversation with the server?
+# ---------------------------------------------------------------------------------------------------
+dont-receive-chats: true
+
+# ---------------------------------------------------------------------------------------------------
+#                        What is the exit phrase to leave the conversation.
+# ---------------------------------------------------------------------------------------------------
+exit-phrase: "leave"

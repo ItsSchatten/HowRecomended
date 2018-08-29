@@ -15,7 +15,7 @@ import org.apache.commons.lang.Validate;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import me.itsshadow.howrecommended.HowRecomended;
+import me.itsshadow.howrecommended.HowRecommended;
 import me.itsshadow.libs.Utils;
 
 
@@ -230,7 +230,7 @@ public class SimpleConfig extends YamlConfiguration {
 	// Extract the file from your jar to the plugins/YourPlugin folder.
 	// Does nothing if the file exists
 	private File extract(String path) {
-		final JavaPlugin i = HowRecomended.getInstance();
+		final JavaPlugin i = HowRecommended.getInstance();
 		final File file = new File(i.getDataFolder(), path);
 
 		if (file.exists())
@@ -259,7 +259,7 @@ public class SimpleConfig extends YamlConfiguration {
 	private File createFileAndDirectory(String path) {
 
 		// The data folder is your plugin's folder with your plugin's name inside plugins/ folder.
-		final File datafolder = HowRecomended.getInstance().getDataFolder();
+		final File datafolder = HowRecommended.getInstance().getDataFolder();
 		final int lastIndex = path.lastIndexOf('/');
 		final File directory = new File(datafolder, path.substring(0, lastIndex >= 0 ? lastIndex : 0));
 

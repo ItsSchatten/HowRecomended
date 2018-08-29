@@ -6,12 +6,13 @@ import org.bukkit.plugin.java.JavaPlugin;
 import lombok.Getter;
 import me.itsshadow.howrecommended.configs.Messages;
 import me.itsshadow.howrecommended.configs.Settings;
+import me.itsshadow.howrecommended.listeners.JoinListener;
 import me.itsshadow.libs.Utils;
 
-public class HowRecomended extends JavaPlugin {
+public class HowRecommended extends JavaPlugin {
 
 	@Getter
-	private static HowRecomended instance;
+	private static HowRecommended instance;
 
 	private static PluginDescriptionFile pdf;
 
@@ -66,6 +67,9 @@ public class HowRecomended extends JavaPlugin {
 		// Set values to allow use in the utils.
 		Utils.setPrefix(Messages.PREFIX);
 		Utils.setNoPermsMessage(Messages.NO_PERMS);
+
+		// Register the events
+		getServer().getPluginManager().registerEvents(new JoinListener(), this);
 
 		// End log message.
 		Utils.log("",

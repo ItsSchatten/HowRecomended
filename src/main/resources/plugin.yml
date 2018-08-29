@@ -5,5 +5,5 @@ author: ${author}
 depend: [Vault]
  
 # Though not required it makes the commands show in /help
-commands:
+#commands:
   

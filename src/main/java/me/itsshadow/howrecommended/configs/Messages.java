@@ -32,11 +32,17 @@ public class Messages extends SimpleConfig {
 		new Messages("messages.yml").onLoad();
 	}
 
-	public static String PREFIX, NO_PERMS;
+	public static String PREFIX, NO_PERMS, BYPASS_MESSAGE, SUCCESS_MESSAGE, PROMPT_MESSAGE, CONVO_PREFIX, NOT_ENOUGH_ARGS, INAPPROPRIATE_ARGS;
 
 	public void onLoad() {
 		PREFIX = getString("prefix");
 		NO_PERMS = getString("no-perms");
+		BYPASS_MESSAGE = getString("bypass-message");
+		SUCCESS_MESSAGE = getString("success-message");
+		PROMPT_MESSAGE = getString("prompt-text");
+		CONVO_PREFIX = getString("convo-prefix");
+		NOT_ENOUGH_ARGS = getString("not-enough-args");
+		INAPPROPRIATE_ARGS = getString("inappropriate-args");
 	}
 
 	public void reloadMessages() {
