@@ -1,3 +1,5 @@
+# This is currently on hold, because I've been doing other things. YAY!
+
 ## HowRecomended
 
 This plugin is for spigot.
