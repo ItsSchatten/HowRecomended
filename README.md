@@ -4,7 +4,7 @@
 
 This plugin is for spigot.
 
-Anyone can edit this plugin as long as they leave appropriate credit to me. _ItsShadow_ (Kade)
+Anyone can edit this plugin as long as they leave appropriate credit to me. ItsSchatten (Kade)
 
 
 # Description
